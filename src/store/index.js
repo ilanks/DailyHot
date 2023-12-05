@@ -122,6 +122,12 @@ export const mainStore = defineStore("mainData", {
           order: 18,
           show: true,
         },
+        {
+          label: "历史上的今天",
+          value: "calendar",
+          order: 19,
+          show: true,
+        },
       ],
       newsArr: [],
       // 链接跳转方式
