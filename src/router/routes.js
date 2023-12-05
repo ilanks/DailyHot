@@ -45,14 +45,14 @@ const routes = [
     component: () => import("@/views/403.vue"),
   },
   // 404
-  {
+  /*{
     path: "/404",
     name: "404",
     meta: {
       title: "404",
     },
     component: () => import("@/views/404.vue"),
-  },
+  },*/
   // 500
   {
     path: "/500",
